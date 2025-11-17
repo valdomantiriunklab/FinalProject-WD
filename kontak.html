@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontak - Pencarian Kost Unklab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">KostUnklab</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="kost.html">Daftar Kost</a></li>
+            <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+            <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container mt-5">
+      <div class="row">
+        <div class="col-lg-7">
+          <h3>Kontak</h3>
+          <p class="small-muted">Punya pertanyaan atau mau laporin data kost? Isi form di bawah.</p>
+          <div class="card card-kost p-3">
+            <form id="contact-form">
+              <div class="mb-3">
+                <label class="form-label">Nama</label>
+                <input id="contact-name" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input id="contact-email" type="email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Pesan</label>
+                <textarea id="contact-message" rows="4" class="form-control" required></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="card card-kost p-3">
+            <h6 class="fw-bold">Alamat</h6>
+            <p class="small-muted mb-1">Universitas Klabat</p>
+            <p class="small-muted">Jl. Arnold Mononutu, Airmadidi, Minahasa Utara, Manado 95371, Sulawesi Utara, In.</p>
+            <div class="mt-3">
+              <h6 class="fw-bold">Jam Operasional</h6>
+              <p class="small-muted mb-0">Senin - Kamis: 09:00 - 18:00</p>
+              <p class="small-muted">Sabtu: 09:00 - 16:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-white text-center text-muted py-4 mt-5 border-top">
+      <div class="container">
+        &copy; 2025 KostUnklab — dibuat untuk tugas final. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/kontak.js"></script>
+  </body>
+</html>

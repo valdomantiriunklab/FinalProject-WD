@@ -1,0 +1,83 @@
+
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daftar Kost - Pencarian Kost Unklab</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">KostUnklab</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="kost.html">Daftar Kost</a></li>
+        <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container mt-5">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h3 class="mb-0">Daftar Kost</h3>
+    <div class="small-muted">Temukan kost sesuai kebutuhanmu</div>
+  </div>
+
+  <div class="card card-kost p-3 mb-4">
+    <form id="search-form" class="row g-2 align-items-end">
+      <div class="col-md-4">
+        <label class="form-label small-muted">Kata kunci</label>
+        <input id="search-q" class="form-control" placeholder="Nama kost">
+      </div>
+      <div class="col-md-2">
+        <label class="form-label small-muted">Min (Rp)</label>
+        <input id="filter-min" type="number" class="form-control" placeholder="0">
+      </div>
+      <div class="col-md-2">
+        <label class="form-label small-muted">Max (Rp)</label>
+        <input id="filter-max" type="number" class="form-control" placeholder="9999999">
+      </div>
+      <div class="col-md-2">
+        <label class="form-label small-muted">Kategori</label>
+        <select id="filter-kategori" class="form-select">
+          <option value="">Semua</option>
+          <option value="Putra">Putra</option>
+          <option value="Putri">Putri</option>
+          <option value="Campur">Campur</option>
+        </select>
+      </div>
+      <div class="col-md-2 form-check">
+        <input id="filter-available" class="form-check-input" type="checkbox">
+        <label class="form-check-label small-muted" for="filter-available">Hanya Tersedia</label>
+      </div>
+      <div class="col-12 d-flex justify-content-end">
+        <button id="reset-filter" type="button" class="btn btn-secondary btn-sm w-10">Reset Filter</button>
+      </div>
+    </form>
+  </div>
+</main>
+
+<main class="container mt-5">
+  <div id="kost-cards"></div>
+</main>
+
+<footer class="bg-white text-center text-muted py-4 mt-5 border-top">
+  <div class="container">
+    &copy; 2025 KostUnklab — dibuat untuk tugas final. All rights reserved.
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/kost-modal.js"></script>
+</body>
+</html>
