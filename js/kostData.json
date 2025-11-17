@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Kost Pelangi",
+    "kategori": "Campur",
+    "kontak": "0812-3456-7890",
+    "location": "Airmadidi Bawah, Airmadidi, North Minahasa Regency, North Sulawesi",
+    "maps_link": "https://maps.app.goo.gl/XkuUX8fY7a3MeWK58?g_st=aw",
+    "maps_img": "assets/img/maps/kost1.jpg",
+    "foto_utama": "assets/img/kost1/main.jpg",
+    "foto_tambahan": [
+      "assets/img/kost1/1.jpg",
+      "assets/img/kost1/2.jpg"
+    ],
+    "fasilitas": [
+      "Kamar mandi dalam",
+      "Free WiFi",
+      "AC"
+    ],
+    "jumlah_kamar": 12,
+    "kapasitas_per_kamar": 2,
+    "price": 1200000,
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Mispa Kost",
+    "kategori": "Putri",
+    "kontak": "0821-9876-5432",
+    "location": "Airmadidi Atas, Airmadidi, North Minahasa Regency, North Sulawesi",
+    "maps_link": "https://maps.app.goo.gl/5c1evRwrmXoXdYLk6?g_st=aw",
+    "maps_img": "assets/img/maps/kost2.jpg",
+    "foto_utama": "assets/img/kost2/main.jpg",
+    "foto_tambahan": [
+      "assets/img/kost2/1.jpg",
+      "assets/img/kost2/2.jpg"
+    ],
+    "fasilitas": [
+      "Dapur bersama",
+      "Parkir",
+      "Listrik 1300W"
+    ],
+    "jumlah_kamar": 8,
+    "kapasitas_per_kamar": 1,
+    "price": 900000,
+    "available": false
+  },
+  {
+    "id": 3,
+    "name": "A&J Kost 2 Airmadidi",
+    "kategori": "Putra",
+    "kontak": "0838-1111-2222",
+    "location": "Lingkungan 10, Airmadidi Atas, Airmadidi, North Minahasa Regency, North Sulawesi 95371",
+    "maps_link": "https://maps.app.goo.gl/8VXgBewkVifycLzj6?g_st=aw",
+    "maps_img": "assets/img/maps/kost3.jpg",
+    "foto_utama": "assets/img/kost3/main.jpg",
+    "foto_tambahan": [
+      "assets/img/kost3/1.jpg",
+      "assets/img/kost3/2.jpg",
+      "assets/img/kost3/3.jpg"
+    ],
+    "fasilitas": [
+      "Free WiFi",
+      "AC",
+      "Kamar mandi bersama"
+    ],
+    "jumlah_kamar": 15,
+    "kapasitas_per_kamar": 2,
+    "price": 1100000,
+    "available": true
+  }
+]
